@@ -9,19 +9,30 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form class="form">
-		<input type="text" placeholder="Name" id="name"/></br><br>
-		<input id="phone" type="text" placeholder="PhoneNumber"/></br></br>
-		<input id="address" type="text" placeholder="Address"/></br></br>
-		<select id="checkbox">
-			<option>Have you ever lived with a Dog before?</option>
-		</select></br></br>
-		<select id="multiSelect">
-			<option>pune</option>
-			<option>mumbai</option>
-			<option>delhi</option>
-		</select></br></br>
-		<input type="submit" id="submit" value="Submit"/>
-	</form>
+    <input type="text" id="name" name="name" placeholder="Name">
+    <br><br>
+
+    <input type="text" id="phone" name="phone" placeholder="Phone Number">
+    <br><br>
+
+    <input type="text" id="address" name="address" placeholder="Address">
+    <br><br>
+
+    <select id="checkbox" name="dogExperience">
+        <option>Yes</option>
+        <option>No</option>
+    </select>
+    <br><br>
+
+    <select id="multiSelect" name="cities" multiple>
+        <option>Pune</option>
+        <option>Mumbai</option>
+        <option>Delhi</option>
+    </select>
+    <br><br>
+
+    <input type="submit" id="submit" value="Submit">
+</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
